@@ -1,0 +1,70 @@
+.wrapper {
+  padding: 40px;
+  input {
+    border: 1px solid #444;
+    border-radius: 4px;
+    background: none;
+    padding: 10px 10px;
+  }
+  .dataForm {
+    .optionsWithSizeInput {
+      width: 60vw;
+      .dataOptions {
+        float: left;
+        div {
+          margin-bottom: 10px;
+          span {
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            border: 1px solid #444;
+            vertical-align: middle;
+            margin-right: 6px;
+          }
+        }
+      }
+    }
+
+    .clearfix {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .counterResults {
+      width: 60vw;
+      margin-top: 40px;
+      padding: 20px 0;
+      div {
+        margin-bottom: 20px;
+        input {
+          float: right;
+          clear: both;
+          height: 35px;
+        }
+      }
+    }
+    .submitBtn {
+      margin: auto;
+      margin-top: 40px;
+      text-align: center;
+      width: 60vw;
+      a {
+        display: block;
+        text-decoration: none;
+        background-color: #04aa6d;
+        border: 1px solid #04aa6d;
+        padding: 10px;
+        border-radius: 10px;
+        transition: 0.4s;
+        color: #fff;
+        &.disabled {
+          background-color: grey;
+          border: 1px solid grey;
+          cursor: text;
+          pointer-events: none;
+        }
+      }
+    }
+  }
+}

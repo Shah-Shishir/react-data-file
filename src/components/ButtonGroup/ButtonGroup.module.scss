@@ -1,0 +1,25 @@
+.btnGroup {
+  margin-top: 25px;
+  button {
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.4s;
+    color: #fff;
+    width: 80px;
+    &:disabled {
+      background-color: grey;
+      border: 1px solid grey;
+      cursor: text;
+    }
+  }
+  .startBtn {
+    background-color: #04aa6d;
+    border: 1px solid #04aa6d;
+    margin-right: 20px;
+  }
+  .stopBtn {
+    background-color: #ff4669;
+    border: 1px solid #ff4669;
+  }
+}

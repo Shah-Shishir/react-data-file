@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  .distributedResults {
+    .distributionTable {
+      div {
+        text-align: center;
+        margin-bottom: 5px;
+      }
+      table {
+        border: 1px solid #444;
+        border-collapse: collapse;
+        width: 80vw;
+        th,
+        td {
+          border: 1px solid #444;
+          text-align: center;
+          padding-top: 5px;
+          padding-bottom: 5px;
+        }
+      }
+    }
+    .dataWithTypes {
+      text-align: start !important;
+      margin-top: 5px;
+    }
+    .backBtn {
+      margin-top: 40px;
+      a {
+        text-decoration: none;
+        padding: 10px 25px;
+        background-color: #04aa6d;
+        border-radius: 4px;
+        width: 40px;
+        color: #fff;
+      }
+    }
+  }
+}
